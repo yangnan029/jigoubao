@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="../assets/css/huoqi.css">
+    <script src="http://cdn.static.runoob.com/libs/jquery/1.10.2/jquery.min.js"></script>
 </head>
 
 <body>
@@ -199,8 +200,20 @@
             </div>
         </div>
     </div>
-
     </div>
+    <script>
+        $.ajax({
+            type: "GET",
+            url: 'http://www.51jigoubao.com/jgb-web/v1/products/rec',
+            dataType: "json",
+            success: function (data) {
+                console.log(data.data)
+            },
+            error:function(err){
+                console.log(err)
+            }
+        });
+    </script>
 </body>
 
 </html>
