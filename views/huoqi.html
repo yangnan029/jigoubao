@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="../assets/css/huoqi.css">
+    <script src="http://cdn.static.runoob.com/libs/jquery/1.10.2/jquery.min.js"></script>
 </head>
 
 <body>
@@ -157,9 +158,9 @@
                 </div>
             </div>
 
-    </div>
-                
-    <div class="footer">
+        </div>
+
+        <div class="footer">
             <div class="footer_container">
                 <div class="footer_list clearfix">
                     <div class="left">
@@ -172,8 +173,10 @@
                     <div class="middle">
                         <dl>
                             <dt>联系我们</dt>
-                            <dd><img src="http://51jigoubao.com/static/img/footer-weixin.24d5c94.png" alt=""> 微信公众号：jigoubao</dd>
-                            <dd><img src="http://51jigoubao.com/static/img/footer-address.1532586.png" alt=""> 公司地址：上海市徐汇区乐山路33号1号楼210室</dd>
+                            <dd>
+                                <img src="http://51jigoubao.com/static/img/footer-weixin.24d5c94.png" alt=""> 微信公众号：jigoubao</dd>
+                            <dd>
+                                <img src="http://51jigoubao.com/static/img/footer-address.1532586.png" alt=""> 公司地址：上海市徐汇区乐山路33号1号楼210室</dd>
                         </dl>
                     </div>
                     <div class="right">
@@ -197,8 +200,20 @@
             </div>
         </div>
     </div>
-
     </div>
+    <script>
+        $.ajax({
+            type: "GET",
+            url: 'http://www.51jigoubao.com/jgb-web/v1/products/rec',
+            dataType: "json",
+            success: function (data) {
+                console.log(data.data)
+            },
+            error:function(err){
+                console.log(err)
+            }
+        });
+    </script>
 </body>
 
 </html>
