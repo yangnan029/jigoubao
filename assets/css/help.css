@@ -1,0 +1,21 @@
+.login {
+  width: 100%;
+  border-top: 1px solid #dadada;
+}
+.login .login_content {
+  width: 950px;
+  margin: 0 auto;
+}
+.login .login_content .title {
+  margin-top: 45px;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #dadada;
+}
+.login .login_content .title span {
+  font-size: 20px;
+  color: #1b65ce;
+  padding: 5px 10px;
+  letter-spacing: 2px;
+  border-bottom: 2px solid #1b65ce;
+}

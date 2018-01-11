@@ -28,6 +28,7 @@ li {
   height: 104px;
   margin: 0 auto;
   position: relative;
+  z-index: 1000;
 }
 .container .main_container .header .logo {
   float: left;
@@ -72,7 +73,6 @@ li {
   text-align: center;
 }
 .container .main_container .first .first_content .left {
-  float: left;
   border: 1px solid #fff;
   margin-left: 10%;
   display: inline-block;
@@ -392,7 +392,6 @@ li {
 }
 .container .footer .footer_container .footer_list .right {
   display: inline-block;
-  float: left;
   vertical-align: top;
 }
 .container .footer .footer_container .footer_list .right span {
