@@ -88,6 +88,7 @@
                 </div>
             </div>
             <div class="second">
+<<<<<<< HEAD
                 <div class="second_content">
                     <div class="img_list" id="item">
                         <div class="left">
@@ -108,6 +109,26 @@
                             <h3>收益远超活期</h3>
                             <p>机构宝货币基金收益远超银行活期存款利息，日日复利，每日结转。一分起存，轻松享受企业理财收益。</p>
                         </div>
+=======
+                <div class="second_content" >
+                <div class="img_list" id="item">
+                    <div class="left">
+                        <img src="../assets/images/current/img001.png"    alt="">
+                        <h3>收益远超活期</h3>
+                        <p>机构宝货币基金收益远超银行活期存款利息，日日复利，每日结转。一分起存，轻松享受企业理财收益。</p>
+                    </div>
+                    <div class="middle">
+                        <img src="../assets/images/current/img002.png"    alt="">
+
+                        <h3>收益远超活期</h3>
+                        <p>机构宝货币基金收益远超银行活期存款利息，日日复利，每日结转。一分起存，轻松享受企业理财收益。</p>
+                    </div>
+                    <div class="right">
+                            <img src="../assets/images/current/img003.png"    alt="">
+
+                        <h3>收益远超活期</h3>
+                        <p>机构宝货币基金收益远超银行活期存款利息，日日复利，每日结转。一分起存，轻松享受企业理财收益。</p>
+>>>>>>> cef74540dd31cf99942aaa98f27223569a083b7a
                     </div>
                 </div>
             </div>
@@ -179,11 +200,7 @@
             success: function (data) {
                 console.log(data)
                 var resp = data.data;
-                var content =
-                    '<div class="title"><h3>为您优选的货币基金</h3></div><div class="product"><div class="icon"><img src="../assets/images/current/icon.png" alt=""></div><div class="name"><p>' +
-                    resp.decription + '</p></div><div class="week"><p>' + resp.seventhYearYield * 100 +
-                    '%</p><p>7日年化收益率</p></div><div class="day"><p>' + resp.yieldPerMillion +
-                    '元</p><p>日万份收益</p></div><div class="time"><p>实时到账</p><p>取现到账时间</p></div><div class="touzi"><button>立即投资</button></div></div>'
+                var content = '<div class="title"><h3>为您优选的货币基金</h3></div><div class="product"><div class="icon"><img src="../assets/images/current/icon.png" alt=""></div><div class="name"><p>' + resp.decription + '</p></div><div class="week"><p>' + resp.seventhYearYield * 100 + '%</p><p>7日年化收益率</p></div><div class="day"><p>' + resp.yieldPerMillion + '元</p><p>日万份收益</p></div><div class="time"><p>实时到账</p><p>取现到账时间</p></div><div class="touzi"><button>立即投资</button></div></div>'
                 $("#item").before(content)
                 $("#percent").text(resp.seventhYearYield * 100 + '%')
                 console.log(data.data)
