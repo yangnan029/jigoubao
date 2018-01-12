@@ -78,6 +78,8 @@
   width: 1200px;
   margin: 0 auto;
   text-align: center;
+  /* 命名不要用拼音，下一个有道词典吧（慢慢的要养成习惯 拜托了） */
+  /* end */
 }
 .second_section .cooperation_lists .bank {
   display: inline-block;
