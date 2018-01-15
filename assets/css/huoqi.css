@@ -1,23 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-a {
-  text-decoration: none;
-}
-ul,
-li {
-  list-style: none;
-}
-.clearfix {
-  zoom: 1;
-}
-.clearfix:after {
-  content: "";
-  display: block;
-  height: 0;
-  clear: both;
-}
+@import './common.less';
 .container {
   width: 100%;
   height: 100vh;
