@@ -21,8 +21,8 @@
   border-bottom: 2px solid #1b65ce;
 }
 .login .login_content .left {
-  width: 360px;
-  padding: 70px 140px 150px 30px;
+  width: 469px;
+  padding: 40px 40px 0 30px;
   float: left;
   border-right: 1px solid #dadada;
 }
@@ -39,24 +39,90 @@
   color: #333;
   position: relative;
 }
+.login .login_content .left .row .lefts {
+  display: inline-block;
+  width: 105px;
+  text-align: right;
+}
 .login .login_content .left .row span {
   font-size: 15px;
 }
+.login .login_content .left .row span span {
+  color: red;
+  vertical-align: sub;
+}
 .login .login_content .left .row input {
   height: 40px;
-  width: 270px;
+  width: 300px;
   padding-left: 20px;
-  margin-left: 10px;
   border: 1px solid #dddddd;
   box-sizing: border-box;
 }
+.login .login_content .left .row input.img_password {
+  width: 220px;
+}
+.login .login_content .left .row img {
+  width: 75px;
+  height: 40px;
+  vertical-align: bottom;
+}
+.login .login_content .left .row .changeImg {
+  width: 50px;
+  display: inline-block;
+}
+.login .login_content .left .row .changeImg a {
+  color: #1b65ce;
+  font-size: 14px;
+}
+.login .login_content .left .row .level {
+  margin-right: 60px;
+}
+.login .login_content .left .row .level ul {
+  float: right;
+}
+.login .login_content .left .row .level ul li {
+  float: left;
+  width: 100px;
+  background: #dcdcdc;
+  text-align: center;
+  line-height: 22px;
+  font-size: 12px;
+  border-right: 1px solid #fff;
+  box-sizing: border-box;
+}
+.login .login_content .left .row .level ul li:last-child {
+  border-right: none;
+}
+.login .login_content .left .row p {
+  text-align: center;
+}
+.login .login_content .left .row p input[type=checkbox] {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  vertical-align: middle;
+}
+.login .login_content .left .row p span {
+  font-size: 14px;
+}
+.login .login_content .left .row p span a {
+  color: #1b65ce;
+}
 .login .login_content .left .row button {
-  width: 100%;
+  width: 410px;
   padding: 8px 0;
   background: #1b65ce;
   color: #ffffff;
   font-size: 18px;
   border: none;
+}
+.login .login_content .left .row button.get_phonecode {
+  width: 75px;
+  height: 40px;
+  font-size: 14px;
+  background: #ddd;
+  color: #333;
+  vertical-align: bottom;
 }
 .login .login_content .left .row .forget {
   position: absolute;

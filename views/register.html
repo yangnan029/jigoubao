@@ -7,7 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="../assets/css/huoqi.css">
-    <link rel="stylesheet" href="../assets/css/help.css">
+    
+    <link rel="stylesheet" href="../assets/css/register.css">
 </head>
 
 <body>
@@ -50,28 +51,99 @@
             <div class="login">
                 <div class="login_content clearfix">
                     <div class="title">
-                        <span>登录</span>
+                        <span>注册</span>
                     </div>
                     <div class="left">
                         <div class="head">
-                            <p>登录</p>
+                            <p>注册账户</p>
                         </div>
                         <div class="row">
-                            <span>手机号码：</span>
-                            <input type="text" name="" id="" placeholder="请输入您的手机号码">
+                            <div class="lefts">
+                                <span>公司名称：
+                                    <span>*</span>
+                                </span>
+                            </div>
+                            <input type="text" name="" id="" placeholder="请输入公司名称">
                         </div>
                         <div class="row">
-                            <span>登录密码：</span>
-                            <input type="text" name="" id="" placeholder="请输入您的登录密码">
-                            <div class="forget">
-                                <span><a href="#">忘记密码？</a></span>
+                            <div class="lefts">
+
+                                <span>真实姓名：</span>
+                            </div>
+                            <input type="text" name="" id="" placeholder="方便与您联系">
+                        </div>
+
+                        <div class="row">
+                            <div class="lefts">
+                                <span>手机号码:
+                                    <span>*</span>
+                                </span>
+
+                            </div>
+                            <input type="text" name="" id="" placeholder="输入您的手机号码，将作为登陆账号">
+                        </div>
+
+                        <div class="row">
+                            <div class="lefts">
+
+                                <span>图片验证：
+                                    <span>*</span>
+                                </span>
+                            </div>
+                            <input type="text" name="" id="" placeholder="请输入4位图片验证码" class="img_password">
+                            <img src="http://51jigoubao.com/jgb-web/v1/captcha" alt="">
+                            <div class="changeImg">
+                                <a href="#">换一张</a>
                             </div>
                         </div>
+
                         <div class="row">
-                            <button>登录</button>
+                            <div class="lefts">
+
+                                <span>手机验证码：
+                                    <span>*</span>
+                                </span>
+                            </div>
+                            <input type="text" name="" id="" placeholder="请输入验证码" class="img_password">
+                            <button class="get_phonecode">点击获取</button>
                         </div>
-                        <div class="register">没有账号？
-                            <a href="#">立即注册</a>
+
+                        <div class="row">
+                            <div class="lefts">
+                                <span>设置密码：
+                                    <span>*</span>
+                                </span>
+
+                            </div>
+                            <input type="password" name="" id="" placeholder="6-10位数字">
+                            <div class="level clearfix">
+                                <ul class="clearfix">
+                                    <li>低</li>
+                                    <li>中</li>
+                                    <li>高</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="lefts">
+                                <span>确认密码：
+                                    <span>*</span>
+                                </span>
+
+                            </div>
+                            <input type="text" name="" id="" placeholder="6-10位数字">
+                        </div>
+                        <div class="row">
+                            <p>
+                                <input type="checkbox">
+                                <span>注册即同意
+                                    <a href="#">《机构宝服务协议》</a>
+                                </span>
+                            </p>
+                        </div>
+                        <div class="row">
+                            <button>提交注册</button>
                         </div>
                     </div>
                     <div class="right">
@@ -90,44 +162,44 @@
 
         </div>
         <div class="footer">
-                <div class="footer_container">
-                    <div class="footer_list clearfix">
-                        <div class="left">
-                            <dl>
-                                <dt>机构宝首页</dt>
-                                <dd>帮助中心</dd>
-                                <dd>新手指南</dd>
-                            </dl>
-                        </div>
-                        <div class="middle">
-                            <dl>
-                                <dt>联系我们</dt>
-                                <dd>
-                                    <img src="http://51jigoubao.com/static/img/footer-weixin.24d5c94.png" alt=""> 微信公众号：jigoubao</dd>
-                                <dd>
-                                    <img src="http://51jigoubao.com/static/img/footer-address.1532586.png" alt=""> 公司地址：上海市徐汇区乐山路33号1号楼210室</dd>
-                            </dl>
-                        </div>
-                        <div class="right">
-                            <span>客服电话（工作时间9:00-18:00）</span>
-                            <span>021-64859676</span>
-                        </div>
-                        <div class="wechat_img">
-                            <img src="http://51jigoubao.com/static/img/qrcode.93c21f4.jpg" alt="">
-                            <p>机构宝微信：jigoubao</p>
-                        </div>
+            <div class="footer_container">
+                <div class="footer_list clearfix">
+                    <div class="left">
+                        <dl>
+                            <dt>机构宝首页</dt>
+                            <dd>帮助中心</dd>
+                            <dd>新手指南</dd>
+                        </dl>
                     </div>
-                    <div class="copyright">
-                        <p>Copyright© 2014-2017 51jigoubao All Rights Reserved 版权所有: 上海基智信息咨询有限公司
-                        </p>
+                    <div class="middle">
+                        <dl>
+                            <dt>联系我们</dt>
+                            <dd>
+                                <img src="http://51jigoubao.com/static/img/footer-weixin.24d5c94.png" alt=""> 微信公众号：jigoubao</dd>
+                            <dd>
+                                <img src="http://51jigoubao.com/static/img/footer-address.1532586.png" alt=""> 公司地址：上海市徐汇区乐山路33号1号楼210室</dd>
+                        </dl>
+                    </div>
+                    <div class="right">
+                        <span>客服电话（工作时间9:00-18:00）</span>
+                        <span>021-64859676</span>
+                    </div>
+                    <div class="wechat_img">
+                        <img src="http://51jigoubao.com/static/img/qrcode.93c21f4.jpg" alt="">
+                        <p>机构宝微信：jigoubao</p>
                     </div>
                 </div>
-    
-                <div class="footer_bottom">
-                    <p>
-                        <img src="http://51jigoubao.com/static/img/copyright.d0289dc.png" alt="">沪公网安备 31010402001819 号</p>
+                <div class="copyright">
+                    <p>Copyright© 2014-2017 51jigoubao All Rights Reserved 版权所有: 上海基智信息咨询有限公司
+                    </p>
                 </div>
             </div>
+
+            <div class="footer_bottom">
+                <p>
+                    <img src="http://51jigoubao.com/static/img/copyright.d0289dc.png" alt="">沪公网安备 31010402001819 号</p>
+            </div>
+        </div>
     </div>
 </body>
 
